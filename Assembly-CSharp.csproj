@@ -56,19 +56,19 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\GameFolders\Scripts\Player Scripts\PlayerController.cs" />
-    <Compile Include="Assets\GameFolders\Scripts\Singleton Scripts\GameManager.cs" />
-    <Compile Include="Assets\GameFolders\Scripts\UI Scripts\MenuManager.cs" />
-    <Compile Include="Assets\GameFolders\Scripts\Player Scripts\PCInputManager.cs" />
-    <Compile Include="Assets\GameFolders\Scripts\Player Scripts\FireballManager.cs" />
-    <Compile Include="Assets\GameFolders\Scripts\UI Scripts\UIManager.cs" />
-    <Compile Include="Assets\GameFolders\Scripts\Enemies Scripts\RedDragonMovements.cs" />
-    <Compile Include="Assets\GameFolders\Scripts\Player Scripts\PlayerEventManager.cs" />
-    <Compile Include="Assets\GameFolders\Scripts\Enemies Scripts\RedDragonSpawnManager.cs" />
-    <Compile Include="Assets\GameFolders\Scripts\Enemies Scripts\RedDragonPoolManager.cs" />
-    <Compile Include="Assets\GameFolders\Scripts\Enemies Scripts\RedDragonBaseSpawnManager.cs" />
-    <Compile Include="Assets\GameFolders\Scripts\Enemies Scripts\RedDragonManager.cs" />
-    <Compile Include="Assets\GameFolders\Scripts\Singleton Scripts\GenericPoolManager.cs" />
+    <Compile Include="Assets\GameFolders\Scripts\Player\PlayerController.cs" />
+    <Compile Include="Assets\GameFolders\Scripts\Singleton\GameManager.cs" />
+    <Compile Include="Assets\GameFolders\Scripts\UI\MenuManager.cs" />
+    <Compile Include="Assets\GameFolders\Scripts\Player\PCInputManager.cs" />
+    <Compile Include="Assets\GameFolders\Scripts\Enemy\RedDragonManager.cs" />
+    <Compile Include="Assets\GameFolders\Scripts\Player\FireballManager.cs" />
+    <Compile Include="Assets\GameFolders\Scripts\UI\UIManager.cs" />
+    <Compile Include="Assets\GameFolders\Scripts\Enemy\RedDragonMovements.cs" />
+    <Compile Include="Assets\GameFolders\Scripts\Player\PlayerEventManager.cs" />
+    <Compile Include="Assets\GameFolders\Scripts\Enemy\RedDragonSpawnManager.cs" />
+    <Compile Include="Assets\GameFolders\Scripts\Enemy\RedDragonPoolManager.cs" />
+    <Compile Include="Assets\GameFolders\Scripts\Enemy\RedDragonBaseSpawnManager.cs" />
+    <Compile Include="Assets\GameFolders\Scripts\Singleton\GenericPoolManager.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
